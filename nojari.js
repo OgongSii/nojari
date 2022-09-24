@@ -6,22 +6,19 @@ var customList = [];
 
 //reset 버튼 클릭시 진짜냐고 붙고 확인시 리셋
 $("#reset").click(function () {
-    if (confirm("ㄹㅇ????????????")) {
+    if (confirm("정말 초기화겠습니까?")) {
         location.reload(true);
     }
 });
 
 //자리선정 버튼 클릭시 boyList에서 랜덤으로 뽑아서 td에 넣기
 $("#goin").click(function () {
-    if (confirm("헐 ㄹㅇ????????????")) {
+    if (confirm("자리를 선정하시겠습니까?")) {
         for (var i = 1; i <= 18; i++) {
             var random = Math.floor(Math.random() * boyList.length);
             $("#td" + i).text(boyList[random]);
             boyList.splice(random, 1);
 
         }
-    }
-    else {
-        alert("휴");
     }
 });
