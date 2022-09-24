@@ -12,13 +12,19 @@ td {
     padding: 0px;
 }
 
-div {
+/* .nono {
+    width: 330px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+} */
+
+.main {
     width: 330px;
     margin: auto;
     margin-top: 50px;
     text-align: center;
 }
-
 
 .nono {
     appearance: none;

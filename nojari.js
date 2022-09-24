@@ -20,7 +20,7 @@ $("#reset").click(function () {
             Swal.fire({
                 text: "승인이 완료되었습니다.",
                 icon: 'success'
-        })
+            })
             setTimeout(() => location.reload(true), 1000)
         }
     })
@@ -41,11 +41,14 @@ $("#goin").click(function () {
         // Toast.fire({
         //     text: "승인이 완료되었습니다.",
         //     icon: 'success'
-        for (var i = 1; i <= 18; i++) {
-            var random = Math.floor(Math.random() * boyList.length);
-            $("#td" + i).text(boyList[random]);
-            boyList.splice(random, 1);
+        if (result.isConfirmed) {
+            for (var i = 1; i <= 18; i++) {
+                var random = Math.floor(Math.random() * boyList.length);
+                $("#td" + i).text(boyList[random]);
+                boyList.splice(random, 1);
+            }
         }
-    })
+    }
+    )
 });
 
