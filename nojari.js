@@ -19,6 +19,6 @@ $("#goin").click(function () {
             boyList.splice(random, 1);
 
         }
-    }ㅋ
+    }
 });
 
