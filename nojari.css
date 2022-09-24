@@ -11,13 +11,13 @@ td {
     vertical-align: middle;
     padding: 0px;
 }
-
+/* 
 div {
     width: 330px;
     margin: auto;
     margin-top: 50px;
     text-align: center;
-}
+} */
 
 
 .nono {
@@ -44,8 +44,9 @@ div {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 100%;
+    width: 20%;
     will-change: transform;
+    margin-left: 40%;
 }
 
 .nono:disabled {
@@ -64,7 +65,74 @@ div {
     transform: translateY(0);
 }
 
+#menu{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 5px 2px 0 0;
+}
 
+#menu li a {
+    display: block;
+    font-size: 100%;
+    height: 20px;
+    float: left;
+    padding: 6px 20px 5px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 2px 0 0;
+    background-color: #d7d7d7;
+    color: #000040;
+    /* border-radius: 10px 10px 0 0;(나중에 차후 변경) */
+}
+
+#menu li a:hover {
+    background-color: #fff;
+    color: #303030;
+}
+
+#menu .selected a, #menu .selected a:hover{
+    background-color: white;
+    color: #000;
+}
+
+#logo{
+    width: 860px;
+    position: relative;/* 상대좌표: 나머지 요소 위치에 영향을 주지 않고 자신만 움직임 */
+    height: 134px;
+}
+
+#logo h1 {
+    font-size: 300%;
+    padding: 24px 0 0 0;
+    margin: 0;
+    color: #fff;
+}
+
+#logo h2 {
+    font-size: 120%;
+    padding: 4px 0 0 0;
+    color: #a8aa94;
+}
+
+#logo h1, #logo h1 a, #logo h1 a:hover{
+    padding: 22px 0 0 0;
+    color: white;
+    text-decoration: none;
+}
+
+#site_content{
+    width: 858px;
+    overflow: hidden; /* 보여지는 너비보다 큰 경우 숨김 */
+    margin: 0 auto ;
+    padding: 10px 20px 20px 20px;
+    background: #252525 repeat-y;
+}
 
 /* CSS
 .button-57 {
