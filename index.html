@@ -2,15 +2,15 @@
 <html>
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>배치</title>
     <link rel="stylesheet" href="nojari.css" />
 </head>
 
-<body>
+<body id="body">
     <div class="main">
         <h1>교탁</h1>
-        <table>
+        <table id="table">
             <tr>
                 <td id="td1" onclick="setGirl('1');"></td>
                 <td id="td2" onclick="setGirl('2');"></td>
@@ -58,6 +58,9 @@
         <div id='result'></div> -->
     </div>
 </body>
+<footer>
+    <button class="button-55" id="shot" role="button">캡쳐</button>
+</footer>
 
 </html>
 
@@ -68,5 +71,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 
 <script src="nojari.js"></script>
