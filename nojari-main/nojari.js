@@ -1,3 +1,4 @@
+var qw = 1;
 var isGirl = [];
 var isBoy = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
 // var girlList=["김고라니", "박고라니", "정고라니", "백고라니", "흑고라니", "생고라니", "국산고라니", "왜래고라니"];
@@ -42,13 +43,18 @@ $("#goin").click(function () {
         //     text: "승인이 완료되었습니다.",
         //     icon: 'success'
         if (result.isConfirmed) {
-            for (var i = 1; i <= 18; i++) {
-                var random = Math.floor(Math.random() * boyList.length);
-                $("#td" + i).text(boyList[random]);
-                boyList.splice(random, 1);
+            if (result.isConfirmed) {
+                var myVar = setInterval(function () {
+                    var random = Math.floor(Math.random() * boyList.length);
+                    $("#td" + qw).text(boyList[random]);
+                    boyList.splice(random, 1);
+                    qw++;
+                    if (qw > 19) {
+                        clearInterval(myVar);
+                    }
+                }, 1000);
             }
         }
-    }
-    )
+    })
 });
 
