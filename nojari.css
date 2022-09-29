@@ -1,6 +1,6 @@
 body {
-    background-color: #3a3a3a;
-    color: rgb(204, 204, 204);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 td {
@@ -10,6 +10,13 @@ td {
     text-align: center;
     vertical-align: middle;
     padding: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #3a3a3a;
+        color: rgb(204, 204, 204);
+    }
 }
 
 /* .nono {
