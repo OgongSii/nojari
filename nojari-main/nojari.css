@@ -12,6 +12,10 @@ td {
     padding: 0px;
 }
 
+.align-center {
+    text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #3a3a3a;
@@ -27,7 +31,7 @@ td {
 } */
 
 .main {
-    width: 330px;
+    width: 390px;
     margin: auto;
     margin-top: 50px;
     text-align: center;
