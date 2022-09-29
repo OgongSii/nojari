@@ -1,28 +1,22 @@
 body {
-    background-color: #3a3a3a;
-    color: rgb(204, 204, 204);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
-.non {
+td {
     border: 1px solid rgb(173, 173, 173);
-    width: 78px;
+    width: 100px;
     height: 40px;
     text-align: center;
     vertical-align: middle;
     padding: 0px;
-    margin-left: 100%;
-    margin-right: auto;
 }
 
-.center{
-    border: 1px solid rgb(173, 173, 173);
-    width: 78px;
-    height: 40px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 0px;
-    margin-left: 90px;
-    margin-right: auto;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #3a3a3a;
+        color: rgb(204, 204, 204);
+    }
 }
 
 /* .nono {
@@ -38,6 +32,7 @@ body {
     margin-top: 50px;
     text-align: center;
 }
+
 
 .nono {
     appearance: none;
