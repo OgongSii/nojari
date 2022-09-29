@@ -9,8 +9,8 @@ hr {
 }
 
 body {
-    background-color: #c7c7c7;
-    color: rgb(0, 0, 0);
+    background-color: #222222;
+    color: rgb(223, 223, 223);
 }
 
 .non {
@@ -25,10 +25,10 @@ body {
     /* padding: 0px; */
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     body {
-        background-color: #3a3a3a;
-        color: rgb(204, 204, 204);
+        background-color: #c5c5c5;
+        color: rgb(0, 0, 0);
     }
 }
 
