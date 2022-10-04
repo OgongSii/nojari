@@ -50,6 +50,10 @@ $("#goin").click(function () {
                     boyList.splice(random, 1);
                     qw++;
                     if (qw > 19) {
+                        Toast.fire({
+                            text: "승인이 완료되었습니다.",
+                            icon: 'success'
+                        })
                         clearInterval(myVar);
                     }
                 }, 500);
