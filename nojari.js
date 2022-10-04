@@ -51,7 +51,7 @@ $("#goin").click(function () {
                 if (qw > 19) {
                     clearInterval(myVar);  
                 }
-            }, 1000);
+            }, 500);
             // for (var i = 1; i <= 18; i++) {
             //     var random = Math.floor(Math.random() * boyList.length);
             //     $("#td" + i).text(boyList[random]);
