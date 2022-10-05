@@ -9,12 +9,17 @@ hr {
 }
 
 body {
-    background-color: #222222;
+    background-color: #333333;
     color: rgb(223, 223, 223);
 }
 
+.nojari {
+    margin: 0 auto;
+    display: block;
+}
+
 .capture {
-    background-color: #222222;
+    background-color: #333333;
     color: rgb(223, 223, 223);
 }
 

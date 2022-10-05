@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(700, 300);
+  createCanvas(1100, 300);
   background(51);
   // textFont(font);
   // textSize(192);
@@ -17,7 +17,7 @@ function setup() {
 
   var points = font.textToPoints('nojari', 100, 200, 192, {
     // sampleFactor: 0.25
-    sampleFactor: 0.15
+    sampleFactor: 0.17
   });
 
   for (var i = 0; i < points.length; i++) {
