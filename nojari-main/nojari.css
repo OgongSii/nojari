@@ -13,6 +13,11 @@ body {
     color: rgb(223, 223, 223);
 }
 
+.capture {
+    background-color: #222222;
+    color: rgb(223, 223, 223);
+}
+
 .non {
     /* display: table; */
     border: 1px solid rgb(173, 173, 173);
@@ -219,7 +224,7 @@ body {
     text-decoration: none;
     text-align: center;
     margin: 5px 2px 0 0;
-    background-color: #d7d7d7;
+    background-color: #646464;
     color: #000040;
     border-radius: 5px 5px 5px 5px;
 }

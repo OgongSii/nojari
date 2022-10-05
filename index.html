@@ -9,42 +9,45 @@
 
 <body id="body">
     <ul id="menu">
-        <li class="selected"><a href="index.html">자리선정</a></li>
-        <li><a href="./nojari-main/index.html">교실 청소 배정표</a></li>
+        <li class="selected"><a href="index.html" style="color:#000;">자리선정</a></li>
+        <li><a href="./nojari-main/index.html" style="color:#000;">교실 청소 배정표</a></li>
     </ul>
     <div class="main">
-        <h1>교탁</h1>
-        <table id="table">
-            <tr>
-                <td id="td1" onclick="setGirl('1');"></td>
-                <td id="td2" onclick="setGirl('2');"></td>
-                <td id="td3" onclick="setGirl('3');"></td>
-                <td id="td4" onclick="setGirl('4');"></td>
-            </tr>
-            <tr>
-                <td id="td5" onclick="setGirl('7');"></td>
-                <td id="td6" onclick="setGirl('8');"></td>
-                <td id="td7" onclick="setGirl('9');"></td>
-                <td id="td8" onclick="setGirl('9');"></td>
-            </tr>
-            <tr>
-                <td id="td9" onclick="setGirl('7');"></td>
-                <td id="td10" onclick="setGirl('8');"></td>
-                <td id="td11" onclick="setGirl('9');"></td>
-                <td id="td12" onclick="setGirl('9');"></td>
-            </tr>
-            <tr>
-                <td id="td13" onclick="setGirl('7');"></td>
-                <td id="td14" onclick="setGirl('8');"></td>
-                <td id="td15" onclick="setGirl('9');"></td>
-                <td id="td16" onclick="setGirl('9');"></td>
-            </tr>
-            <tr>
-                <td id="td17" onclick="setGirl('7');"></td>
-                <td id="td18" onclick="setGirl('8');"></td>
-            </tr>
-        </table>
+        <div id="capture" class="capture">
+            <h1>교탁</h1>
+            <table id="table">
+                <tr>
+                    <td id="td1" onclick="setGirl('1');"></td>
+                    <td id="td2" onclick="setGirl('2');"></td>
+                    <td id="td3" onclick="setGirl('3');"></td>
+                    <td id="td4" onclick="setGirl('4');"></td>
+                </tr>
+                <tr>
+                    <td id="td5" onclick="setGirl('7');"></td>
+                    <td id="td6" onclick="setGirl('8');"></td>
+                    <td id="td7" onclick="setGirl('9');"></td>
+                    <td id="td8" onclick="setGirl('9');"></td>
+                </tr>
+                <tr>
+                    <td id="td9" onclick="setGirl('7');"></td>
+                    <td id="td10" onclick="setGirl('8');"></td>
+                    <td id="td11" onclick="setGirl('9');"></td>
+                    <td id="td12" onclick="setGirl('9');"></td>
+                </tr>
+                <tr>
+                    <td id="td13" onclick="setGirl('7');"></td>
+                    <td id="td14" onclick="setGirl('8');"></td>
+                    <td id="td15" onclick="setGirl('9');"></td>
+                    <td id="td16" onclick="setGirl('9');"></td>
+                </tr>
+                <tr>
+                    <td id="td17" onclick="setGirl('7');"></td>
+                    <td id="td18" onclick="setGirl('8');"></td>
+                </tr>
+            </table>
+        </div>
         <br />
+
         <button class="nono" id="reset">리셋</button>
         <!-- onclick="location.reload(true) -->
         <!-- 줄바꿈 -->
